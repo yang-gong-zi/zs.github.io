@@ -1,0 +1,74 @@
+.three{
+    padding-top:70px ;
+    width: 100%;
+    height: 700px;
+    background-color: rgba(255,255,255,0.9);
+    
+}
+
+.three nav{
+    text-align:left;
+    width: 600px;
+    height: 50px;
+    margin: 0px 0px 10px 100px ;
+    display: block;
+    border-top: 1px black solid;
+    border-bottom: 1px solid black;
+}
+.three nav li{
+    text-decoration: none;
+    font-family: "华文楷体";
+    text-align:center;
+    font-size: 24px;
+    display: block;
+    width: 100px;
+    margin:5px;
+    height: 40px;
+    float:left;
+    line-height: 40px;
+    transition: all 0.3;
+    background-image:url(../img/three_小标题3.png);
+    background-size: 100% 100%;
+    background-repeat: no-repead;
+}
+.three nav li:hover{
+   background-image: url(../img/three_小标题2.png);
+    background-size: 100% 100%;
+    background-repeat: no-repead;
+}
+.three .fbox{
+    overflow:auto;
+    width: 100%;
+    display:block;
+    height: 470px;
+}
+.three .fbox .right{
+    float: left;
+    margin-left: 100px;
+    width: 300px;
+    height: 300px;
+    background: url(../img/three_biank.png);
+    background-size: 100%;
+}
+.right .p1{
+    font-size: 50px;
+    display: block;
+    width: 300px;
+    height: 100px;
+    line-height:100px;
+    color: #f8df72;
+    text-align: center;
+  font-family: "华文楷体";
+}
+.three .lovefirst{
+    float: left;
+    border: 1px solid black;
+    width: 1000px;
+    text-align: center;
+    margin-left:0px;
+    height: 470px;
+}
+ .lovefirst video{
+     width: 800px;
+     
+}

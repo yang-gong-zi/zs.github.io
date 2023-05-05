@@ -1,0 +1,150 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>main</title>
+        <style>
+                 @font-face{
+    font-family:sss;
+    src: url(font/tem3.ttf);
+}
+            *{
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+          body{
+            background-color: white;
+          background:url(img/mainbg.jpg) no-repeat ;
+          
+          background-size: 100%
+        }
+        .tempbox{
+            width:900px;
+            height: 220px;
+            position: absolute;
+            bottom: 10px;
+            left: 19%;
+            overflow: hidden;
+            transition: all .3s;
+        }
+        .tempbox li{
+            position: relative;
+            float: left;
+            width: 150px;
+            height: 220px;
+            transition: all .3s;
+            background-color: rgba(250, 215, 215, 0.3);
+        }
+        .tempbox li .text{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            font-size: 16px;
+            color: white;
+            width: 100%;
+                height: 30px;
+                text-align: center;
+                line-height: 30px;
+                background-color: rgba(0,0,0,0.3);
+        }
+        .tempbox:hover li{
+            width: 100px;
+        }
+        .tempbox li:hover{
+            background-color: rgba(250, 215, 215, 0.7);
+            width: 400px;
+        }
+         /* li:hover .toum{
+             width: 600px;
+            background-color: rgba(252, 207, 207, 0.7);
+         }
+        .toum{
+            border: 1px dashed black;
+            height: 320px;
+            width: 200px;
+            transition: all 1s;
+            background-color: rgba(236, 173, 173, 0.3);
+        } */
+        header{
+            
+            display: block;
+            width: 1200px;
+            height: 200px;
+            margin:0 auto;
+        }
+        .fenye{
+           
+            color: white;
+            margin: auto;
+            display: block;
+            width: 500px;
+            height: 100px;
+        }
+        hr{
+            color:rgb(236, 61, 207);
+        }
+        .fenye p {
+            text-align: center;
+            font-size: 34px;
+            font-family:sss;
+            margin-bottom: 10px;
+        }
+        h5{
+            margin-top: 10px;
+            text-align: center;
+            font-family: "楷体";
+        }
+        .movie{
+            width: 1200px;
+            display: block;
+           height: 300px;
+        }
+        video{
+            height: 300px;
+        }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="left"></div>
+            <div class="logo"></div>
+            <div class="right"></div>
+        </header>
+        <div class="fenye">
+             <p>visited our team</p>
+            <hr>
+            <h5>每一个世界都一颗发光的心</h5>
+        </div>
+     <!-- <div class="movie">
+          <video src="img/main_video.mp4"></video>
+        </div> -->
+        <ul class="tempbox">
+            <li>
+               <a href="index.html">
+
+           </a>
+               <div class="text">郭方达</div>
+           </li>
+       
+           <li>
+       
+               <div class="text">欧阳昕</div>
+           </li>
+           <li>
+               
+               <div class="text">万祖鸿</div>
+           </li>
+           <li>
+           
+               <div class="text">王泽龙</div>
+           </li>
+           <li>
+               <div class="text">刘昭乾</div>
+           </li>
+           <li>
+               <div class="text">彭科生</div>
+           </li>
+       </ul>
+       </div>
+    </body>
+</html>

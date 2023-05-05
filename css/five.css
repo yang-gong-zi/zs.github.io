@@ -1,0 +1,48 @@
+.five{
+    padding-top:50px ;
+    width: 100%;
+    height: 700px;
+    background:url(../img/five_bg.jpg) no-repeat;
+
+    background-size: 100%;
+}
+.five_talk{
+    display: block;
+    width: 500px;
+    background-color: rgba(142, 128, 75, 0.7);
+    height: 300px;
+    margin: auto;
+}
+.five_talk p{
+    color:white;
+    font-family: "仿宋";
+    font-size: 18px;
+    text-indent: 2em;
+    line-height: 30px;
+}
+.five_talk h4{
+    text-align: center;
+    color: white;
+}
+.five footer{
+
+    display: block;
+    width:100%;
+    margin: 150px auto 0px ;
+ height: 100px;
+ text-align: center;
+}
+.five footer p{
+    color:white;
+    font-family: "仿宋";
+    font-size: 18px;
+}
+.five footer nav{
+    width: 300px;
+    margin: auto;
+    text-align: center;
+}
+.five footer nav img{
+    width: 50px;
+    margin-left:5px;
+}
